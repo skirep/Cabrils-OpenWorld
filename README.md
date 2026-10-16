@@ -4,9 +4,9 @@ Un minijoc de món obert amb **Three.js**, ambientat a Cabrils (Maresme, Barcelo
 
 ## Jugar al navegador
 
-Adreça prevista (encara no publicada): **https://skirep.github.io/Cabrils-OpenWorld/**
+**https://skirep.github.io/Cabrils-OpenWorld/**
 
-El desplegament està preparat amb GitHub Actions després de cada canvi a `main`, sempre que les proves i la compilació passin. Cal fer públic el repositori i activar GitHub Pages amb GitHub Actions abans del primer desplegament.
+El joc es publica amb GitHub Actions després de cada canvi a `main`, sempre que les proves i la compilació passin.
 
 ## Jugar en local
 
@@ -24,7 +24,7 @@ npm test
 npm run build
 ```
 
-`dist/` és un web estàtic amb rutes relatives, preparat per a qualsevol hosting estàtic. El workflow `Verify game` executa proves, compila i desa un artefacte web a GitHub Actions. El workflow `Publish GitHub Pages` compila i prepara el joc per publicar-lo a GitHub Pages. El desplegament s’omet mentre el repositori sigui privat. El pla actual de GitHub requereix fer públic el repositori per activar Pages; aquest canvi està pendent d’autorització.
+`dist/` és un web estàtic amb rutes relatives, preparat per a qualsevol hosting estàtic. El workflow `Verify game` executa proves, compila i desa un artefacte web a GitHub Actions. El workflow `Publish GitHub Pages` compila i publica el joc a GitHub Pages. El repositori és públic.
 
 ## Què inclou
 
