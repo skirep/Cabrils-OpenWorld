@@ -12,4 +12,4 @@ Reproduce the data with `python3 scripts/import_map.py`. To read the database: `
 
 The snapshot is a rectangular area around Cabrils, approximately 3.5 × 3.1 km, including some neighbouring streets. It does not claim to reproduce the entire municipal boundary. Gameplay bounds are smaller than the downloaded rectangle. OpenStreetMap features may be incomplete or out of date.
 
-The ICGC ContextMaps viewer was consulted as a detailed cartographic reference: https://www.icgc.cat/ca/Eines-i-visors/Visors/ContextMaps . ICGC data has not been copied into this game.
+A bounded ICGC Ortofoto Territorial snapshot is now included separately in `public/aerial/` under CC BY 4.0. It is independent of the ODbL OSM geometry database. See [AERIAL-CREDITS.md](AERIAL-CREDITS.md) for its license, attribution, export resolution, modifications and provenance.

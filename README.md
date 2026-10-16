@@ -57,7 +57,7 @@ En mòbil apareixen botons tàctils grans. Toca el mapa per marcar un punt blau.
 
 ## Fidelitat i límits
 
-**Els carrers i les petjades d'edificis són reals. Les façanes, les cobertes i la vegetació són recreacions procedimentals. El relleu és una superfície aproximada, no un model d'elevació topogràfic.** Les alçades sense dades s'infereixen. El joc no és una reconstrucció fotogramètrica ni té la qualitat d'una producció GTA comercial.
+**Els carrers i les petjades d’edificis són reals. El mode AERI aplica una ortofoto real de l’ICGC al terreny i a les cobertes, amb les seves coordenades. Les façanes i la vegetació 3D són recreacions. El relleu és una superfície aproximada, no un model d’elevació topogràfic.** Les alçades sense dades s'infereixen. El joc no és una reconstrucció fotogramètrica ni té la qualitat d'una producció GTA comercial.
 
 El trànsit segueix segments d'OSM i pot girar a l'extrem d'un tram; no disposa d'un sistema complet de semàfors ni d'encaminament urbà. Els vianants són ambientals. La policia és una mecànica senzilla de persecució, sense navegació complexa. La geometria OSM pot tenir errors o solapaments; R permet recuperar-se.
 
@@ -87,3 +87,9 @@ Codi original MIT. Dades geogràfiques © OpenStreetMap contributors, ODbL 1.0. 
 ## Textures i referències de Cabrils
 
 S’han consultat fotografies del carrer de Sant Salvador i referències patrimonials del municipi. Les fotografies només orienten la paleta; no s’han copiat al joc. Les textures fotogràfiques reutilitzables són de Poly Haven (CC0), incloses localment i optimitzades a WebP. Consulta [TEXTURE-CREDITS.md](TEXTURE-CREDITS.md) i `public/textures/manifest.json` per als materials, llicències i procedència. La selecció de material per casa és aproximada.
+
+## Ortofoto real de Cabrils
+
+El mode **AERI: ON**, activat per defecte, mostra una fotografia aèria real de Cabrils al terreny, les cobertes i el minimapa. El botó **AERI** alterna entre aquesta imatge i els materials anteriors. Inclou una instantània ICGC de 4096 × 4096 píxels, allotjada al mateix web. El pes addicional de la imatge és aproximadament 5,6 MB. La imatge de vista zenital no proporciona façanes fotorealistes ni el relleu real; hi pot haver desajustos amb les petjades OSM.
+
+Ortofoto © ICGC, CC BY 4.0, adaptada. Consulta [AERIAL-CREDITS.md](AERIAL-CREDITS.md) i `public/aerial/manifest.json`. L’any exacte del vol a Cabrils no s’ha verificat. Les proves inclouen projecció, orientació nord/sud i UV de la imatge, a més de les de col·lisions i geometria.

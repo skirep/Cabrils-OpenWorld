@@ -1,0 +1,25 @@
+{
+  "provider": "Institut Cartogràfic i Geològic de Catalunya (ICGC)",
+  "title": "Ortofoto Territorial · Cabrils",
+  "layer": "ortofoto_color_vigent",
+  "bbox": [
+    2.349,
+    41.515,
+    2.391,
+    41.543
+  ],
+  "crs": "EPSG:4326",
+  "wmsVersion": "1.1.1",
+  "width": 4096,
+  "height": 4096,
+  "file": "cabrils-ortho.webp",
+  "source": "https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=ortofoto_color_vigent&STYLES=&SRS=EPSG%3A4326&BBOX=2.349%2C41.515%2C2.391%2C41.543&WIDTH=4096&HEIGHT=4096&FORMAT=image%2Fjpeg",
+  "product": "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Imatge/Ortofoto-Territorial",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Ortofoto © ICGC · CC BY 4.0",
+  "downloaded": "2026-10-16T20:03:59.916429+00:00",
+  "flightDate": null,
+  "changes": "Bounded WMS RGB export; re-encoded JPEG to WebP; mapped to approximate 3D terrain and roof footprints. No claim of exact facade or elevation reconstruction.",
+  "sha256": "6dd0ab4fba427a6641b94f991d0cf8a5f8bd47416f2fac70c22df40866989016"
+}

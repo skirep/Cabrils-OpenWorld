@@ -27,3 +27,7 @@ the Open Database License (ODbL) 1.0. See DATA-LICENSE.md.
 Photographic surface textures in public/textures are Poly Haven CC0 1.0 assets.
 Facade atlases combine those CC0 surfaces with original MIT artwork.
 See TEXTURE-CREDITS.md and public/textures/manifest.json.
+
+Aerial orthophoto imagery in public/aerial is © Institut Cartogràfic i
+Geològic de Catalunya (ICGC), CC BY 4.0, adapted for this game. This third-party
+imagery is not MIT-licensed. See AERIAL-CREDITS.md and its provenance manifest.
