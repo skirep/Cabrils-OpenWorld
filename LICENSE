@@ -23,3 +23,7 @@ SOFTWARE.
 This license applies to original application code only. Geographic data in
 public/data/cabrils.json.gz is © OpenStreetMap contributors, licensed under
 the Open Database License (ODbL) 1.0. See DATA-LICENSE.md.
+
+Photographic surface textures in public/textures are Poly Haven CC0 1.0 assets.
+Facade atlases combine those CC0 surfaces with original MIT artwork.
+See TEXTURE-CREDITS.md and public/textures/manifest.json.

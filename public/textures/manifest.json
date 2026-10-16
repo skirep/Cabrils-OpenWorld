@@ -1,0 +1,152 @@
+[
+  {
+    "file": "plaster-diff.webp",
+    "asset": "plastered_wall",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/plastered_wall/plastered_wall_diff_1k.jpg",
+    "page": "https://polyhaven.com/a/plastered_wall",
+    "license": "CC0-1.0",
+    "original_sha256": "73312ebb6eabc8e0a55addd8a82a8924bcd1e717b9488a887cc77f14b6ea554e",
+    "size": 512
+  },
+  {
+    "file": "plaster-normal.webp",
+    "asset": "plastered_wall",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/plastered_wall/plastered_wall_nor_gl_1k.jpg",
+    "page": "https://polyhaven.com/a/plastered_wall",
+    "license": "CC0-1.0",
+    "original_sha256": "504e1f7baf4b68714c64b6670e7954bebe99efe31c49f7ce5a2089e4b76023b5",
+    "size": 512
+  },
+  {
+    "file": "roof-diff.webp",
+    "asset": "clay_roof_tiles_02",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/clay_roof_tiles_02/clay_roof_tiles_02_diff_1k.jpg",
+    "page": "https://polyhaven.com/a/clay_roof_tiles_02",
+    "license": "CC0-1.0",
+    "original_sha256": "227a062b38b170e02c27eaa513dae45dc8bc893a62cbd8d0c08e2c32b381fc25",
+    "size": 512
+  },
+  {
+    "file": "roof-normal.webp",
+    "asset": "clay_roof_tiles_02",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/clay_roof_tiles_02/clay_roof_tiles_02_nor_gl_1k.jpg",
+    "page": "https://polyhaven.com/a/clay_roof_tiles_02",
+    "license": "CC0-1.0",
+    "original_sha256": "1548d3ebce335a4590d9e421556c4189a7b63852c793a568c71b9e533f8b62d5",
+    "size": 512
+  },
+  {
+    "file": "stone-diff.webp",
+    "asset": "rustic_stone_wall_02",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rustic_stone_wall_02/rustic_stone_wall_02_diff_1k.jpg",
+    "page": "https://polyhaven.com/a/rustic_stone_wall_02",
+    "license": "CC0-1.0",
+    "original_sha256": "a091e04d73ddf7485d1b99a66d6cfe270e9ba36cdc26f98dbc17934427e43bc9",
+    "size": 512
+  },
+  {
+    "file": "stone-normal.webp",
+    "asset": "rustic_stone_wall_02",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rustic_stone_wall_02/rustic_stone_wall_02_nor_gl_1k.jpg",
+    "page": "https://polyhaven.com/a/rustic_stone_wall_02",
+    "license": "CC0-1.0",
+    "original_sha256": "a7e5c96b8ba3ab3d066c673c4da9b1b7735f176ed6b6b2b9f74216fc151225f7",
+    "size": 512
+  },
+  {
+    "file": "asphalt-diff.webp",
+    "asset": "asphalt_02",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_diff_1k.jpg",
+    "page": "https://polyhaven.com/a/asphalt_02",
+    "license": "CC0-1.0",
+    "original_sha256": "1aa5ce99f58a625c71d48cfc3e68b65ca85ccb00f39e045c0a928608a0ea25ed",
+    "size": 512
+  },
+  {
+    "file": "asphalt-normal.webp",
+    "asset": "asphalt_02",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_nor_gl_1k.jpg",
+    "page": "https://polyhaven.com/a/asphalt_02",
+    "license": "CC0-1.0",
+    "original_sha256": "42a1c381b53204e83a982db2864479a30bc127bbdeebb1006f8ee51bff099df3",
+    "size": 512
+  },
+  {
+    "file": "cobble-diff.webp",
+    "asset": "cobblestone_floor_03",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/cobblestone_floor_03/cobblestone_floor_03_diff_1k.jpg",
+    "page": "https://polyhaven.com/a/cobblestone_floor_03",
+    "license": "CC0-1.0",
+    "original_sha256": "16d707beaa30a62c2d7338d00bdb393213a25ec55d96322c228195a69d2fb0ea",
+    "size": 512
+  },
+  {
+    "file": "cobble-normal.webp",
+    "asset": "cobblestone_floor_03",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/cobblestone_floor_03/cobblestone_floor_03_nor_gl_1k.jpg",
+    "page": "https://polyhaven.com/a/cobblestone_floor_03",
+    "license": "CC0-1.0",
+    "original_sha256": "87543879c856eee5a31f1055d329dd6151785b9a1e5840b840b18a7d036fb02d",
+    "size": 512
+  },
+  {
+    "file": "soil-diff.webp",
+    "asset": "brown_mud_leaves_01",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brown_mud_leaves_01/brown_mud_leaves_01_diff_1k.jpg",
+    "page": "https://polyhaven.com/a/brown_mud_leaves_01",
+    "license": "CC0-1.0",
+    "original_sha256": "c598c555f13cd5328409fd5e2a45496a26e319e52299e3959042f1449c2f1b06",
+    "size": 512
+  },
+  {
+    "file": "soil-normal.webp",
+    "asset": "brown_mud_leaves_01",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brown_mud_leaves_01/brown_mud_leaves_01_nor_gl_1k.jpg",
+    "page": "https://polyhaven.com/a/brown_mud_leaves_01",
+    "license": "CC0-1.0",
+    "original_sha256": "8dd5166ddcc293cefd331d491ce6b9162bc9202ddd999ac1e4141697560d38e0",
+    "size": 512
+  },
+  {
+    "file": "pavement-diff.webp",
+    "asset": "concrete_pavement",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_pavement/concrete_pavement_diff_1k.jpg",
+    "page": "https://polyhaven.com/a/concrete_pavement",
+    "license": "CC0-1.0",
+    "original_sha256": "70d3ff969a7421c7ae057b5d16386d11f5e59c6740db643352e1039413f419c4",
+    "size": 512
+  },
+  {
+    "file": "pavement-normal.webp",
+    "asset": "concrete_pavement",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_pavement/concrete_pavement_nor_gl_1k.jpg",
+    "page": "https://polyhaven.com/a/concrete_pavement",
+    "license": "CC0-1.0",
+    "original_sha256": "a5009e409ff0f7b2d19e1316fe5e2b2b4f28e4a6b79990a664be69d4e8a0e690",
+    "size": 512
+  },
+  {
+    "file": "facade-0.webp",
+    "asset": "plastered_wall",
+    "page": "https://polyhaven.com/a/plastered_wall",
+    "license": "CC0-1.0 + original MIT artwork",
+    "derived": true,
+    "size": 1024
+  },
+  {
+    "file": "facade-1.webp",
+    "asset": "plastered_wall",
+    "page": "https://polyhaven.com/a/plastered_wall",
+    "license": "CC0-1.0 + original MIT artwork",
+    "derived": true,
+    "size": 1024
+  },
+  {
+    "file": "facade-2.webp",
+    "asset": "plastered_wall",
+    "page": "https://polyhaven.com/a/plastered_wall",
+    "license": "CC0-1.0 + original MIT artwork",
+    "derived": true,
+    "size": 1024
+  }
+]

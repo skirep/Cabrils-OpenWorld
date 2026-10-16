@@ -36,7 +36,7 @@ npm run build
 - Minimap amb noms de carrer, mapa ampliat i punts de destinació seleccionables.
 - Sis entregues: Biblioteca de Cabrils, Mas de Baix, Axol, Xeflis, zona Sorli i Font de la Plaça. Les destinacions se situen al carrer més proper.
 - Contrarellotge, bonificació per entrega i rècord local al navegador.
-- Llum càlida, ombres suaus, atmosfera, materials texturats, cases de tons mediterranis, teulades de teula i vegetació instanciada.
+- Llum càlida, ombres suaus, atmosfera i textures fotogràfiques CC0: estuc blanc/crema, teula envellida, pedra, asfalt, paviment de formigó i terra. Materials amb mapes de normals, persianes i reixes inspirats en referències de Cabrils.
 - Controls tàctils, pausa, recuperació del vehicle, tres càmeres, qualitat gràfica i so de motor opcional.
 
 ## Controls
@@ -61,7 +61,7 @@ En mòbil apareixen botons tàctils grans. Toca el mapa per marcar un punt blau.
 
 El trànsit segueix segments d'OSM i pot girar a l'extrem d'un tram; no disposa d'un sistema complet de semàfors ni d'encaminament urbà. Els vianants són ambientals. La policia és una mecànica senzilla de persecució, sense navegació complexa. La geometria OSM pot tenir errors o solapaments; R permet recuperar-se.
 
-Validació: proves automàtiques de dades geogràfiques, projecció sobre carrers, col·lisions, límits, punt d'inici i destinacions; compilació de producció. La verificació visual i les proves de jugabilitat en navegador queden pendents perquè l'entorn de navegador no pot connectar amb el servidor local de desenvolupament.
+Validació: proves automàtiques de dades geogràfiques, projecció sobre carrers, col·lisions, límits, punt d'inici i destinacions; compilació de producció. La verificació visual del món 3D i les proves de jugabilitat en navegador queden pendents perquè el navegador de proves no pot crear un context WebGL. Els fitxers de la web i el mapa publicats s’han verificat per HTTP.
 
 ## Actualitzar el mapa
 
@@ -83,3 +83,7 @@ L'importador consulta l'API d'OSM per una àrea acotada, projecta les coordenade
 - `tests/geo.test.js`: comprovacions del mapa i de l'espai jugable.
 
 Codi original MIT. Dades geogràfiques © OpenStreetMap contributors, ODbL 1.0. Consulta [DATA-LICENSE.md](DATA-LICENSE.md).
+
+## Textures i referències de Cabrils
+
+S’han consultat fotografies del carrer de Sant Salvador i referències patrimonials del municipi. Les fotografies només orienten la paleta; no s’han copiat al joc. Les textures fotogràfiques reutilitzables són de Poly Haven (CC0), incloses localment i optimitzades a WebP. Consulta [TEXTURE-CREDITS.md](TEXTURE-CREDITS.md) i `public/textures/manifest.json` per als materials, llicències i procedència. La selecció de material per casa és aproximada.
