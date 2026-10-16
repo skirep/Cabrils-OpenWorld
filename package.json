@@ -1,0 +1,1 @@
+{"name":"cabrils-openworld","version":"1.0.0","private":true,"type":"module","scripts":{"start":"vite --host 0.0.0.0","build":"vite build --base=./","test":"node --test tests/*.test.js"},"dependencies":{"three":"0.180.0"},"devDependencies":{"vite":"7.1.9"}}
