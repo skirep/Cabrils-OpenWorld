@@ -9,7 +9,7 @@ export async function loadVillageMaterials(renderer){
   const make=(key,roughness,strength=.4)=>new THREE.MeshStandardMaterial({map:maps[key][0].clone(),normalMap:maps[key][1].clone(),normalScale:new THREE.Vector2(strength,strength),roughness,side:THREE.DoubleSide});
   const facadeMaps=await Promise.all([0,1,2].map(i=>load('facade-'+i,true)));
   const facades=facadeMaps.map(map=>new THREE.MeshStandardMaterial({map,normalMap:maps.plaster[1],normalScale:new THREE.Vector2(.16,.16),roughness:.94,side:THREE.DoubleSide}));
-  return {road:make('asphalt',.95,.35),grass:make('soil',1,.35),wall:facades[0],facades,
+  return {plaster:make('plaster',.95,.16),road:make('asphalt',.95,.35),grass:make('soil',1,.35),wall:facades[0],facades,
     roof:make('roof',.89,.75),stone:make('stone',.96,.6),paving:make('cobble',.97,.5),
     pavement:make('pavement',.95,.3),dirt:make('soil',1,.4),
     line:new THREE.MeshStandardMaterial({color:0xd4cfb9,roughness:1,side:THREE.DoubleSide})};

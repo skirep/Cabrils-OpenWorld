@@ -18,7 +18,7 @@ export async function loadAerial(renderer,origin){
   return {metadata,bounds:aerialBounds(metadata.bbox,origin),texture,roof:new THREE.MeshStandardMaterial({map:texture,roughness:.95,side:THREE.DoubleSide})};
 }
 export function createAerialTerrain(scene,aerial){const b=aerial.bounds,width=b.maxX-b.minX,depth=b.maxZ-b.minZ;
-  const g=new THREE.PlaneGeometry(width,depth,80,80);g.rotateX(-Math.PI/2);g.translate((b.minX+b.maxX)/2,0,(b.minZ+b.maxZ)/2);
+  const g=new THREE.PlaneGeometry(width,depth,180,180);g.rotateX(-Math.PI/2);g.translate((b.minX+b.maxX)/2,0,(b.minZ+b.maxZ)/2);
   const p=g.attributes.position,uv=g.attributes.uv;for(let i=0;i<p.count;i++){const x=p.getX(i),z=p.getZ(i),q=aerialUV(x,z,b);p.setY(i,heightAt(x,z)-.12);uv.setXY(i,...q);}g.computeVertexNormals();
   const mesh=new THREE.Mesh(g,new THREE.MeshStandardMaterial({map:aerial.texture,roughness:1,side:THREE.DoubleSide}));mesh.receiveShadow=true;scene.add(mesh);return mesh;
 }

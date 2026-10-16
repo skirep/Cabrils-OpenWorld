@@ -1,0 +1,87 @@
+{
+  "product": "ICGC Referencial Topogràfic Territorial 2024, IFC 3D",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Edificis i elevacions © ICGC, CC BY 4.0 (adaptats)",
+  "prepared": "2026-10-16T20:26:10.855006+00:00",
+  "origin": [
+    2.369,
+    41.527
+  ],
+  "bbox": [
+    2.349,
+    41.515,
+    2.391,
+    41.543
+  ],
+  "buildings": 3511,
+  "kinds": {
+    "edi": 3362,
+    "dip": 44,
+    "ind": 38,
+    "cas": 1,
+    "hiv": 66
+  },
+  "sources": [
+    {
+      "tile": "293118",
+      "url": "https://datacloud.icgc.cat/datacloud/topografia-territorial/ifc/topografia-territorial-v1r0-full293118-2024.zip",
+      "sha256": "08101976c960cbdc09339c3f8e5f20dc62a66668d81e336b4bde55e1ba8c08b2"
+    },
+    {
+      "tile": "293119",
+      "url": "https://datacloud.icgc.cat/datacloud/topografia-territorial/ifc/topografia-territorial-v1r0-full293119-2024.zip",
+      "sha256": "da01af7a8c354a4a2cefb04ce921b30db3c8b062d7edf6095f7899a24d32a2aa"
+    },
+    {
+      "tile": "293120",
+      "url": "https://datacloud.icgc.cat/datacloud/topografia-territorial/ifc/topografia-territorial-v1r0-full293120-2024.zip",
+      "sha256": "45655b7dfa8060fa6fc44bdd1cc22ae88f45f8e161857868624c8ebf70c9ee03"
+    },
+    {
+      "tile": "294118",
+      "url": "https://datacloud.icgc.cat/datacloud/topografia-territorial/ifc/topografia-territorial-v1r0-full294118-2024.zip",
+      "sha256": "2c29e519eeba502f9385fb4778fc463893a214a1a15d32cb9ead953820ee7084"
+    },
+    {
+      "tile": "294119",
+      "url": "https://datacloud.icgc.cat/datacloud/topografia-territorial/ifc/topografia-territorial-v1r0-full294119-2024.zip",
+      "sha256": "5a89d74380cf861a1f2f1c0b3013c297b036a0daf4906185d84ef300c9e087a1"
+    },
+    {
+      "tile": "294120",
+      "url": "https://datacloud.icgc.cat/datacloud/topografia-territorial/ifc/topografia-territorial-v1r0-full294120-2024.zip",
+      "sha256": "d556bb859fe43710ed9736a371333bf9e2e6deb0866b996cb7560270d61a38be"
+    }
+  ],
+  "terrain": {
+    "request": "https://geoserveis.icgc.cat/icc_mdt/wcs/service?SERVICE=WCS&VERSION=1.0.0&REQUEST=GetCoverage&COVERAGE=met&CRS=EPSG:25831&BBOX=445088,4595361,449878,4599990&RESX=10&RESY=10&FORMAT=ARCGRID",
+    "samplingMeters": 10,
+    "verticalOffset": 165.99,
+    "sha256": "d6a956ff767bc972394d63d6488e13f39922881c1e4de8bec0dcae4cef70bdea"
+  },
+  "buildingSha256": "2cdc1e9a969e287935c758f330acfa81f526077bb2f0458a71587e10c31655d3",
+  "skippedErrors": [
+    {
+      "tile": "293120",
+      "id": "rXDHmawaT8SrV4hZ2ORnZw",
+      "error": "Failed to process shape. Product: #1419481=IfcBuildingElementProxy('rXDHmawaT8SrV4hZ2ORnZw',#23,'edi','edificació',$,#1419480,#1419479,$,$), representation: #14"
+    },
+    {
+      "tile": "293120",
+      "id": "R1ubgPZYQsCwbWPXMo$b3g",
+      "error": "Failed to process shape. Product: #1427398=IfcBuildingElementProxy('R1ubgPZYQsCwbWPXMo$b3g',#23,'edi','edificació',$,#1427397,#1427396,$,$), representation: #14"
+    },
+    {
+      "tile": "293120",
+      "id": "JC8T6Z$DSuGuFGTX31qyJA",
+      "error": "Failed to process shape. Product: #1441369=IfcBuildingElementProxy('JC8T6Z$DSuGuFGTX31qyJA',#23,'edi','edificació',$,#1441368,#1441367,$,$), representation: #14"
+    },
+    {
+      "tile": "294119",
+      "id": "KakfSUxMRCWVNg6Y5x0o0A",
+      "error": "Failed to process shape. Product: #159363=IfcBuildingElementProxy('KakfSUxMRCWVNg6Y5x0o0A',#23,'dip','dipòsit cobert',$,#159362,#159361,$,$), representation: #1"
+    }
+  ],
+  "limitations": "Official 1:5000 surveyed volumes, not facade photogrammetry. Roof geometry retained from IFC, which includes flat extrusions; no invented pitched roofs. Snapshot 2024, not a claim of present-day centimetre accuracy. Facade materials are illustrative."
+}
